@@ -1,0 +1,32 @@
+{
+  "assetClasses": [{
+    "id": "futures",
+    "name": "Futures"
+  }],
+  "exchanges": [{
+    "id": "cme",
+    "name": "CME",
+    "country": "USA",
+    "assetClasses": [
+      "futures"
+    ]
+  }],
+  "assets": [{
+    "id": "es",
+    "assetClass": "futures",
+    "exchange": "cme",
+    "symbol": "ES",
+    "name": "E-Mini S&P 500 Futures",
+    "tickSize": 0.25,
+    "tickValue": 12.5,
+    "expirations": []
+  }, {
+    "id": "nq",
+    "assetClass": "futures",
+    "exchange": "cme",
+    "symbol": "NQ",
+    "name": "E-Mini Nasdaq 100 Futures",
+    "tickSize": 0.25,
+    "tickValue": 5
+  }]
+}
